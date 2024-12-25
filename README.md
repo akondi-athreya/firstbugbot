@@ -38,7 +38,7 @@ FirstBugBot is a Twitter bot designed to automate the posting of GitHub issues t
 3.	Create a .env file with the 
 following environment variables:
 
-
+	```bash
 	FIREBASE_APIKEY=your_firebase_api_key
 	FIREBASE_AUTHDOMAIN=your_firebase_auth_domain
 	FIREBASE_DATABASEURL=your_firebase_database_url
@@ -49,7 +49,7 @@ following environment variables:
 	TWITTER_CONSUMER_SECRET=your_twitter_consumer_secret
 	TWITTER_ACCESS_TOKEN=your_twitter_access_token
 	TWITTER_ACCESS_TOKEN_SECRET=your_twitter_access_token_secret
-
+	```
 
 4.	Run the script:
 
